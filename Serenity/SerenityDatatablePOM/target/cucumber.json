@@ -1,0 +1,217 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Daniel est� en google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "el busca la frase \"switch\" compuesta \"uno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch",
+                  "offset": 19
+                },
+                {
+                  "val": "uno",
+                  "offset": 38
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.elBuscaLaFraseCompuesta(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify the \"switch\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.iVerifyTheInStep(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Daniel est� en google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "el busca la frase \"name2\" compuesta \"dos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name2",
+                  "offset": 19
+                },
+                {
+                  "val": "dos",
+                  "offset": 37
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.elBuscaLaFraseCompuesta(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify the \"Fail\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fail",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.iVerifyTheInStep(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Daniel est� en google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "el busca la frase \"name2\" compuesta \"tres\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name2",
+                  "offset": 19
+                },
+                {
+                  "val": "tres",
+                  "offset": 37
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.elBuscaLaFraseCompuesta(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify the \"Fail\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fail",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchGoogleStepsDefinitions.iVerifyTheInStep(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feautures/SearchGoogle.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="smoke test" skipped="0" tests="3" time="23.57" timestamp="2019-04-11 01:50:21"><testcase name="Title of your scenario outline"><error message="Arity mismatch: Step Definition 'co.com.google.certificacion.miprimerserenity.stepsdefinitions.SearchGoogleStepsDefinitions.heSearchsACompuesta(String,String) in file:/C:/Users/SEMILLERO12/eclipse-workspace/MiPrimerSerenity/bin/test/' with pattern [^he looks for the compound phrase$] is declared with 2 parameters. However, the gherkin step has 1 arguments [Table:[[dataOne, dataTwo], [Devops, java]]]. &#10;Step text: he looks for the compound phrase" type="cucumber.runtime.CucumberException">Arity mismatch: Step Definition 'co.com.google.certificacion.miprimerserenity.stepsdefinitions.SearchGoogleStepsDefinitions.heSearchsACompuesta(String,String) in file:/C:/Users/SEMILLERO12/eclipse-workspace/MiPrimerSerenity/bin/test/' with pattern [^he looks for the compound phrase$] is declared with 2 parameters. However, the gherkin step has 1 arguments [Table:[[dataOne, dataTwo], [Devops, java]]]. 
+Step text: he looks for the compound phrase</error><system-err>Arity mismatch: Step Definition 'co.com.google.certificacion.miprimerserenity.stepsdefinitions.SearchGoogleStepsDefinitions.heSearchsACompuesta(String,String) in file:/C:/Users/SEMILLERO12/eclipse-workspace/MiPrimerSerenity/bin/test/' with pattern [^he looks for the compound phrase$] is declared with 2 parameters. However, the gherkin step has 1 arguments [Table:[[dataOne, dataTwo], [Devops, java]]]. 
+Step text: he looks for the compound phrase&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>

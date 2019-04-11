@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9932eeba1681eb7d6d11ed84fa7a3cb6b7fa85a3ed659aa6e85eb0f4f4ad0012.html">Open News Found</a></span>
+                > <span class="truncate-60"><a
+                    href="70dbb81c5404de6c8a6fe221af181e2dd960cad4ad96efeff71b72bf9832796a.html">Search news </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-04-2019 08:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Open News Found </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search news
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e298d89adfd55639ddaeb2ab6333e42770f1c4384e2702a3490a93f8adcda9c0.png" title=" Given Daniel wants to look for a news" width="1366"/>
+                <img src="e298d89adfd55639ddaeb2ab6333e42770f1c4384e2702a3490a93f8adcda9c0.png" title=" Daniel Miranda opens the El tiempo home page" width="1366"/>
+                <img src="e298d89adfd55639ddaeb2ab6333e42770f1c4384e2702a3490a93f8adcda9c0.png" title=" Daniel miranda visible browser" width="1366"/>
+                <img src="533ce5eb7c6f868abf90ea2914d6aeebe6ee22a4db1146a9f1bdb9084f083e7a.png" title=" Then " width="1366"/>
+                <img src="d1e0d0bcf036d806f981a3f208d07b5d276eed65ca3171b098267ddcac3cfcc9.png" title=" Then  (completed)" width="1366"/>
+                <img src="d1e0d0bcf036d806f981a3f208d07b5d276eed65ca3171b098267ddcac3cfcc9.png" title=" Daniel miranda visible browser (completed)" width="1366"/>
+                <img src="d1e0d0bcf036d806f981a3f208d07b5d276eed65ca3171b098267ddcac3cfcc9.png" title=" Given Daniel wants to look for a news (completed)" width="1366"/>
+                <img src="7c440cf423fce7c44616c211d9ad58f77439825fad60a7a58ccfbbd00b4b2878.png" title=" When he looks for the article
+| wordOne | wordTwo |
+| artificial | vision |" width="1366"/>
+                <img src="7c440cf423fce7c44616c211d9ad58f77439825fad60a7a58ccfbbd00b4b2878.png" title=" Daniel miranda look up news" width="1366"/>
+                <img src="135926c1caee19b43652f95ab48a6de9b575f6df2b93d9fa2c0b2caf8902ede4.png" title=" Daniel Miranda clicks on Disable cookies" width="1366"/>
+                <img src="8b851f65f59c8d159ad5cd95eb46406ddffbdcff1ff6bc181f07274eee64de94.png" title=" Daniel Miranda clicks on Disable cookies (completed)" width="1366"/>
+                <img src="8b851f65f59c8d159ad5cd95eb46406ddffbdcff1ff6bc181f07274eee64de94.png" title=" Daniel Miranda clicks on Open search" width="1366"/>
+                <img src="35a180dafe6df218672604b97228ff39e8da3133c69eda051141ecd0c1cb6130.png" title=" Daniel Miranda clicks on Open search (completed)" width="1366"/>
+                <img src="35a180dafe6df218672604b97228ff39e8da3133c69eda051141ecd0c1cb6130.png" title=" Daniel Miranda enters 'artificial vision' into Search bar" width="1366"/>
+                <img src="06391e9c71f137e52ac4b9c2b2df8a8e39249da52d9f8ab70789d2b4623de116.png" title=" Daniel Miranda enters 'artificial vision' into Search bar (completed)" width="1366"/>
+                <img src="06391e9c71f137e52ac4b9c2b2df8a8e39249da52d9f8ab70789d2b4623de116.png" title=" Daniel miranda look up news (completed)" width="1366"/>
+                <img src="06391e9c71f137e52ac4b9c2b2df8a8e39249da52d9f8ab70789d2b4623de116.png" title=" When he looks for the article
+| wordOne | wordTwo |
+| artificial | vision | (completed)" width="1366"/>
+                <img src="c778d1ba7adfc0926d1d5ebe186d9e2263f72d7e734df97b868349ba73fa46d0.png" title=" Then he expects to find the news
+| artificial vision |" width="1366"/>
+                <img src="c778d1ba7adfc0926d1d5ebe186d9e2263f72d7e734df97b868349ba73fa46d0.png" title=" Then  should be a string containing 'artificial vision'" width="1366"/>
+                <img src="c778d1ba7adfc0926d1d5ebe186d9e2263f72d7e734df97b868349ba73fa46d0.png" title=" Then he expects to find the news
+| artificial vision | (completed)" width="1366"/>
+                <img src="c778d1ba7adfc0926d1d5ebe186d9e2263f72d7e734df97b868349ba73fa46d0.png" title=" Given Daniel wants to enter the news" width="1366"/>
+                <img src="ed16779ad47522859a14487ab82ca772be719498ed5d51a4b3364a04135c2ded.png" title=" When he selects the news" width="1366"/>
+                <img src="ed16779ad47522859a14487ab82ca772be719498ed5d51a4b3364a04135c2ded.png" title=" Daniel miranda clicking" width="1366"/>
+                <img src="ed16779ad47522859a14487ab82ca772be719498ed5d51a4b3364a04135c2ded.png" title=" Daniel Miranda clicks on [[RemoteWebDriver: chrome on XP (b3ae579a3c1798058a0f37ecea06f689)] -&gt; xpath: //div[@class='listing default-listing view-list']//a[@itemprop='name']]" width="1366"/>
+                <img src="78c511f961a769e1bd3c72ee0db94869856b61429a4c2004c565ac22c67ad3a3.png" title=" Daniel Miranda clicks on [[RemoteWebDriver: chrome on XP (b3ae579a3c1798058a0f37ecea06f689)] -&gt; xpath: //div[@class='listing default-listing view-list']//a[@itemprop='name']] (completed)" width="1366"/>
+                <img src="78c511f961a769e1bd3c72ee0db94869856b61429a4c2004c565ac22c67ad3a3.png" title=" Daniel miranda clicking (completed)" width="1366"/>
+                <img src="78c511f961a769e1bd3c72ee0db94869856b61429a4c2004c565ac22c67ad3a3.png" title=" When he selects the news (completed)" width="1366"/>
+                <img src="a4b15343b1dcdf503a5fc2065cd9eebd6369be4b08f6820f23ce39e40cf7fbc7.png" title=" Then he validates the selection: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.41</span>
+</div>
+</body>
+</html>

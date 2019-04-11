@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="1" name="Title of your feature" skipped="0" tests="3" time="48.4" timestamp="2019-04-11 02:53:07"><testcase name="Title of your scenario outline"><error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</error><system-err>Expected enabled element was not enabled&#13;
+com.google.qa.screenplaydatatable.task.LookUpPhrases.performAs(LookUpPhrases.java:26)&#13;
+com.google.qa.screenplaydatatable.stepdefinitions.ScreenplayDatatableStepdefinitions.heLooksForThePhrase(ScreenplayDatatableStepdefinitions.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>

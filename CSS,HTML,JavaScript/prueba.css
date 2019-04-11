@@ -1,0 +1,100 @@
+body{
+  background-color: white;
+  color: red;
+  font-family: arial;
+}
+img{
+  background-color:white;
+  margin-left: 100px;
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+canvas{
+  margin-left: 0;
+  margin-right: :0
+}
+
+
+
+a{
+  margin-left: 40px;
+  margin-top: 0px;
+  padding:0;
+  background-color: red;
+}
+b{
+  background-color: black;
+}
+
+c{
+  margin-left: 800px;
+}
+
+e{
+  font-size: 20px;
+  font-family: arial black;
+  color: black;
+}
+f{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+g{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+i{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+j{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+k{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+
+x{
+  margin-left: 600px;
+}
+
+h1{
+  margin-left: 550px;
+  font-size: 50px;
+
+}
+h2{
+  font-family: algerian;
+  font-style: normal;
+  color: black;
+  text-decoration: underline;
+  text-emphasis-color: yellow;
+}
+h3{
+  margin-left: 750px;
+  font-family: Comic Sans MS;
+  font-style: normal;
+  color: black;
+  font-size: 40px;
+}
+h4{
+  font-family: Impact;
+  font-style: normal;
+  color: black;
+  font-size: 40px;
+  background-color: red;
+}
+h5{
+  font-family: Impact;
+  font-style: normal;
+  color: black;
+  font-size: 40px;
+}
